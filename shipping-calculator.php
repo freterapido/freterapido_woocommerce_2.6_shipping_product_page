@@ -33,6 +33,7 @@ global $woocommerce;
                 $package['destination']['country'] = $_POST['calc_shipping_country'];
                 $package['destination']['state'] = $_POST['calc_shipping_state'];
                 $package['destination']['postcode'] = $_POST['calc_shipping_postcode'];
+                $quantity = $_POST['calc_shipping_quantity'];
                 $product_id = get_the_ID();
                 $product_data = wc_get_product($product_id);
 
@@ -41,13 +42,13 @@ global $woocommerce;
                     $product_id = $product_data->variation_id;
                 }
 
-                $package['contents_cost'] = $product_data->price;
+                $package['contents_cost'] = $quantity * $product_data->price;
 
                 $package['contents'][0] = array(
                     'product_id' => $product_id,
                     'data' => $product_data,
                     'line_total' => $product_data->get_price(),
-                    'quantity' => 1
+                    'quantity' => $quantity
                 );
 
                 $new_package = $woocommerce->shipping->calculate_shipping_for_package($package);
@@ -79,6 +80,7 @@ global $woocommerce;
     <form class="shipping_calculator" action="" method="post">
 
         <input type="hidden" name="calc_shipping_variation_id" value="0">
+        <input type="hidden" name="calc_shipping_quantity" value="1">
 
         <section class="shipping-calculator-form" id="shipping-calculator-form" style="display:none;">
 
