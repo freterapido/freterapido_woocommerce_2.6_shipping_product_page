@@ -41,6 +41,8 @@ global $woocommerce;
                     $product_id = $product_data->variation_id;
                 }
 
+                $package['contents_cost'] = $product_data->price;
+
                 $package['contents'][0] = array(
                     'product_id' => $product_id,
                     'data' => $product_data,
