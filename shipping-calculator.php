@@ -28,7 +28,7 @@ global $woocommerce;
     <div>
         <p>
             <?php
-            if (isset($_POST['calc_shipping']) && $_POST['calc_shipping'] == '1') {
+            if (isset($_POST['calc_shipping'], $_POST['calc_shipping_quantity']) && $_POST['calc_shipping'] == '1' && $_POST['calc_shipping_quantity'] > 0) {
                 $package = array('rates' => array());
                 $package['destination']['country'] = $_POST['calc_shipping_country'];
                 $package['destination']['state'] = $_POST['calc_shipping_state'];
