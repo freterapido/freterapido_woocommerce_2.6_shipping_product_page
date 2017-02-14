@@ -77,7 +77,7 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
                 //add_action( 'init', array( &$this, 'add_afterbody_scripts' ) );
                 add_action('init', array(&$this, 'add_afterbody_scripts'));
 
-                add_shortcode('calculateshipping', array($this, 'shipping_product_page_button'));
+                add_shortcode('calculate_shipping_product', array($this, 'shipping_product_page_button'));
                 add_filter('widget_text', 'do_shortcode');
             }
 
@@ -174,10 +174,17 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
             function add_menu_items()
             {
                 $wc_page = 'woocommerce';
-                $comparable_settings_page = add_submenu_page($wc_page, __('Calculate Shipping Setting', 'shipping-product-page'), __('Calculate Shipping Setting', 'shipping-product-page'), 'manage_options', 'cs-settings', array(
-                    &$this,
-                    'options_page'
-                ));
+                $comparable_settings_page = add_submenu_page(
+                    $wc_page,
+                    __('Calculate Shipping Setting', 'shipping-product-page'),
+                    __('Calculate Shipping Setting', 'shipping-product-page'),
+                    'manage_options',
+                        'shipping-product-page-settings',
+                    array(
+                        &$this,
+                        'options_page'
+                    )
+                );
             }
 
             //start to include any script after <body> tag
@@ -304,7 +311,7 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
     // finally instantiate the plugin class
     $WooCommerce_Shipping_Product_page = new WooCommerce_Shipping_Product_page();
 
-    function calculateshipping()
+    function calculate_shipping_product()
     {
         $woo_calculateshipping = new WooCommerce_Shipping_Product_page();
 

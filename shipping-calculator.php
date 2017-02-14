@@ -36,6 +36,11 @@ global $woocommerce;
                 $product_id = get_the_ID();
                 $product_data = wc_get_product($product_id);
 
+                if ($product_data->product_type === 'variable' && $data = wc_get_product($_POST['calc_shipping_variation_id'])) {
+                    $product_data = $data;
+                    $product_id = $product_data->variation_id;
+                }
+
                 $package['contents'][0] = array(
                     'product_id' => $product_id,
                     'data' => $product_data,
@@ -70,6 +75,8 @@ global $woocommerce;
 
     <div style="clear:both"></div>
     <form class="shipping_calculator" action="" method="post">
+
+        <input type="hidden" name="calc_shipping_variation_id" value="0">
 
         <section class="shipping-calculator-form" id="shipping-calculator-form" style="display:none;">
 
