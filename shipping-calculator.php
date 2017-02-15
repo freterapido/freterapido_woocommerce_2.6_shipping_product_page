@@ -47,7 +47,7 @@ global $woocommerce;
                 $package['contents'][0] = array(
                     'product_id' => $product_id,
                     'data' => $product_data,
-                    'line_total' => $product_data->get_price(),
+                    'line_total' => $package['contents_cost'],
                     'quantity' => $quantity
                 );
 
