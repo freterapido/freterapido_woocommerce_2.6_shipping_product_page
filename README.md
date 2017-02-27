@@ -14,7 +14,7 @@ Compatibilidade com WooCommerce: **2.6x**
 >**ATENÇÃO!** Recomendamos que seja feito backup da sua loja antes de realizar qualquer instalação. A instalação desse módulo é de inteira responsabilidade do lojista.
 
 
-- [Baixe aqui a última versão][4], descompacte o conteúdo do arquivo zip dentro da pasta "wp-content/plugins", ou instale usando o instalador de plugins do WordPress.
+- [Baixe aqui a última versão][1], descompacte o conteúdo do arquivo zip dentro da pasta "wp-content/plugins", ou instale usando o instalador de plugins do WordPress.
 - Ative o plugin.
 
 ![Instalando o plugin](https://freterapido.com/imgs/woocommerce_2.6_doc/product_page/intall_plugin_product.gif "Procedimento de Instalação")
@@ -47,17 +47,14 @@ Encontrou algum bug ou tem sugestões de melhorias no código? Sensacional! Não
 --------
 
 ### Licença
-[MIT][5]
+[MIT][2]
 
 Powered by 
 ![Frete Rápido - Sistema Inteligente de Gestão Logística](https://freterapido.com/imgs/frete_rapido.png)
 
-> Desenvolvido com base no plugin [woocommerce-calculate-shipping-button][6] de [Chirag Vora][7]
+> Desenvolvido com base no plugin [woocommerce-calculate-shipping-button][3] de [Chirag Vora][4]
 
-[1]: https://www.magentocommerce.com/magento-connect/catalogsearch/result/?q=frete+r%C3%A1pido&pl=0 "Magento Connect"
-[2]: https://freterapido.com/painel/?origin=github_woocommerce_freterapido "Painel do Frete Rápido"
-[3]: mailto:suporte@freterapido.com "E-mail para a galera super gente fina :)"
-[4]: https://github.com/freterapido/freterapido_woocommerce/archive/master.zip
-[5]: https://github.com/freterapido/freterapido_woocommerce/blob/master/LICENSE
-[6]: https://github.com/chirag-v/woocommerce-calculate-shipping-button
-[7]: https://github.com/chirag-v
+[1]: https://github.com/freterapido/freterapido_woocommerce_2.6_shipping_product_page/archive/master.zip
+[2]: https://github.com/freterapido/freterapido_woocommerce_2.6_shipping_product_page/blob/master/LICENSE
+[3]: https://github.com/chirag-v/woocommerce-calculate-shipping-button
+[4]: https://github.com/chirag-v
