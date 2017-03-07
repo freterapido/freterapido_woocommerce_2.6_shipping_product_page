@@ -17,9 +17,9 @@ Compatibilidade com WooCommerce: **2.6x**
 - [Baixe aqui a última versão][1], descompacte o conteúdo do arquivo zip dentro da pasta "wp-content/plugins", ou instale usando o instalador de plugins do WordPress.
 - Ative o plugin.
 
-![Instalando o plugin](https://freterapido.com/imgs/woocommerce_2.6_doc/product_page/intall_plugin_product.gif "Procedimento de Instalação")
+![Instalando o plugin](https://freterapido.com/dev/imgs/woocommerce_2.6_doc/product_page/intall_plugin_product.gif "Procedimento de Instalação")
 
-![Mensagem de atenção para backup da loja](https://freterapido.com/imgs/woocommerce_2.6_doc/attention_2.png "#FicaDica ;)")
+![Mensagem de atenção para backup da loja](https://freterapido.com/dev/imgs/woocommerce_2.6_doc/attention_2.png "#FicaDica ;)")
 
 ----------
 
@@ -28,10 +28,10 @@ Compatibilidade com WooCommerce: **2.6x**
 Para usar o plugin é necessário habilitá-lo em duas etapas:
 
 - Habilitar na loja:
-![Habilitando o plugin na loja](https://freterapido.com/imgs/woocommerce_2.6_doc/product_page/enable_plugin_product.gif "")
+![Habilitando o plugin na loja](https://freterapido.com/dev/imgs/woocommerce_2.6_doc/product_page/enable_plugin_product.gif "")
 
 - Habilitar na página do produto:
-![Habilitando o plugin no produto](http://freterapido.com/imgs/woocommerce_2.6_doc/product_page/produto_tab_calcular_frete.png "Configuração de categorias")
+![Habilitando o plugin no produto](http://freterapido.com/dev/imgs/woocommerce_2.6_doc/product_page/produto_tab_calcular_frete.png "Configuração de categorias")
 
 --------
 
@@ -50,7 +50,7 @@ Encontrou algum bug ou tem sugestões de melhorias no código? Sensacional! Não
 [MIT][2]
 
 Powered by 
-![Frete Rápido - Sistema Inteligente de Gestão Logística](https://freterapido.com/imgs/frete_rapido.png)
+![Frete Rápido - Sistema Inteligente de Gestão Logística](https://freterapido.com/dev/imgs/frete_rapido.png)
 
 > Desenvolvido com base no plugin [woocommerce-calculate-shipping-button][3] de [Chirag Vora][4]
 
