@@ -50,7 +50,7 @@ Encontrou algum bug ou tem sugestões de melhorias no código? Sensacional! Não
 [MIT][2]
 
 Powered by 
-![Frete Rápido - Sistema Inteligente de Gestão Logística](https://freterapido.com/dev/imgs/frete_rapido.png)
+![Frete Rápido - Sistema Inteligente de Gestão Logística](https://freterapido.com/imgs/frete_rapido.png)
 
 > Desenvolvido com base no plugin [woocommerce-calculate-shipping-button][3] de [Chirag Vora][4]
 
