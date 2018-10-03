@@ -15,7 +15,9 @@ Este módulo é apenas um referencial de integração e cabe ao cliente a funç�
 
 A Frete Rápido não mantem e/ou oferece suporte para a integração com o **WooCommerce**, apenas disponibilizamos um módulo de integração padrão que atente a maioria dos e-commerces que utilizam esta plataforma.
 
-Para qualquer modificação no módulo baseada no modelo de negócio do seu e-commerce, nós disponibilizamos aqui o código fonte do módulo integrado a [API do Frete Rápido][6] e aqui [neste link][5] você encontra a documentação de integrações e modificações do **WooCommerce**.
+**Este módulo não opera Dropshipphig!**
+
+Para qualquer modificação neste módulo, baseada no modelo de negócio do seu e-commerce, é possível alterar o código fonte antendendo a  [API da Frete Rápido][6]. E [neste link][5] você encontra a documentação de modificações do **WooCommerce**.
 
 A Frete Rápido não se responsabiliza por eventualidades advindas deste módulo.
 
