@@ -50,7 +50,8 @@ Para usar o plugin é necessário habilitá-lo em duas etapas:
 
 --------
 
-###Contribuições
+### Contribuições
+
 Encontrou algum bug ou tem sugestões de melhorias no código? Sensacional! Não se acanhe, nos envie um *pull request* com a sua alteração e ajude este projeto a ficar ainda melhor.
 
 1. Faça um "Fork"
